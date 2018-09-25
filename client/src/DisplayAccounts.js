@@ -8,7 +8,7 @@ class DisplayAccounts extends Component{
             eachaccount => {
                 return (
                     <div>
-                        <p> {eachaccount.name}'s account is {eachaccount.balance}. </p>
+                        <p> {eachaccount.name}'s account is $ {eachaccount.balance}. </p>
                     </div>
                 );
             }

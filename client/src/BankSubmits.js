@@ -47,7 +47,7 @@ class BankSubmits extends Component{
                  <label>Name:</label>
                  <input value={this.state.name} type='text' placeholder='Enter Name' onChange={this.nameChange}/>
                  <label>Password:</label>
-                 <input value={this.state.password} type='text' placeholder='Enter Password' onChange={this.passwordChange}/>
+                 <input value={this.state.password} type='password' placeholder='Enter Password' onChange={this.passwordChange}/>
                  <label>Balance:</label>
                  <input value={this.state.balance} type='text' placeholder='Enter Balance' onChange={this.balanceChange}/>
                  <button type='submit'>SUBMIT</button>
