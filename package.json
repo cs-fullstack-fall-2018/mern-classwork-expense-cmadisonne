@@ -1,0 +1,25 @@
+{
+  "name": "mern-classwork-expense-cmadisonne",
+  "version": "1.0.0",
+  "description": "Create a fullstack app to create new users and upload their balance.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs-fullstack-fall-2018/mern-classwork-expense-cmadisonne.git"
+  },
+  "author": "M.Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs-fullstack-fall-2018/mern-classwork-expense-cmadisonne/issues"
+  },
+  "homepage": "https://github.com/cs-fullstack-fall-2018/mern-classwork-expense-cmadisonne#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17"
+  }
+}
